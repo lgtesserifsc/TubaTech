@@ -15,34 +15,24 @@ public class Loja {
 
     private void inicializarProdutos() {
         // Celular
-        adicionarProduto(new Produto(1, "iPhone 15 Pro", 5999.99, "Celular"));
-        adicionarProduto(new Produto(2, "Samsung Galaxy S24", 3999.99, "Celular"));
-        adicionarProduto(new Produto(3, "Xiaomi Redmi Note 13", 1299.99, "Celular"));
-        adicionarProduto(new Produto(4, "Motorola Edge 40", 1899.99, "Celular"));
+        adicionarProduto(new Produto(1, "Samsung A15", 1149.00, "Celular"));
+        adicionarProduto(new Produto(2, "Smartphone B2", 2000.00, "Celular"));
 
         // Tablet
-        adicionarProduto(new Produto(5, "iPad Air", 3499.99, "Tablet"));
-        adicionarProduto(new Produto(6, "Samsung Galaxy Tab S9", 2899.99, "Tablet"));
-        adicionarProduto(new Produto(7, "Lenovo Tab M10", 799.99, "Tablet"));
-        adicionarProduto(new Produto(8, "Amazon Fire HD 10", 599.99, "Tablet"));
+        adicionarProduto(new Produto(3, "Tablet Max", 700.00, "Tablet"));
+        adicionarProduto(new Produto(4, "Samsung Galaxy Tab A9+", 1149.00, "Tablet"));
 
         // Computador
-        adicionarProduto(new Produto(9, "PC Gamer Ryzen 7", 4999.99, "Computador"));
-        adicionarProduto(new Produto(10, "Mac Mini M2", 6999.99, "Computador"));
-        adicionarProduto(new Produto(11, "PC Office Intel i5", 2499.99, "Computador"));
-        adicionarProduto(new Produto(12, "Workstation Dell", 8999.99, "Computador"));
+        adicionarProduto(new Produto(5, "PC Gamer i5", 1179.00, "Computador"));
+        adicionarProduto(new Produto(6, "PC Gamer i7", 1000.00, "Computador"));
 
         // Notebook
-        adicionarProduto(new Produto(13, "MacBook Pro M3", 12999.99, "Notebook"));
-        adicionarProduto(new Produto(14, "Dell XPS 13", 7999.99, "Notebook"));
-        adicionarProduto(new Produto(15, "Lenovo ThinkPad", 5499.99, "Notebook"));
-        adicionarProduto(new Produto(16, "ASUS ROG Strix", 6999.99, "Notebook"));
+        adicionarProduto(new Produto(7, "MacBook Asus ROG", 10000.00, "Notebook"));
+        adicionarProduto(new Produto(8, "Notebook HP 250", 5000.00, "Notebook"));
 
         // Periférico
-        adicionarProduto(new Produto(17, "Mouse Logitech MX Master", 499.99, "Periférico"));
-        adicionarProduto(new Produto(18, "Teclado Mecânico Corsair", 799.99, "Periférico"));
-        adicionarProduto(new Produto(19, "Headset HyperX Cloud", 399.99, "Periférico"));
-        adicionarProduto(new Produto(20, "Webcam Logitech C920", 190.99, "Periférico"));
+        adicionarProduto(new Produto(9, "Mouse Redragon Cobra", 25.00, "Periférico"));
+        adicionarProduto(new Produto(10, "Teclado Mecânico Rise Mode", 250.00, "Periférico"));
     }
 
     public void adicionarProduto(Produto produto) {
