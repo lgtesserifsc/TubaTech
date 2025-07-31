@@ -1,7 +1,7 @@
 public class ItemCarrinho {
     private Produto produto;
     private int quantidade;
-    // faz a conta relação Produto X Quantidade
+
     public ItemCarrinho(Produto produto, int quantidade) {
         this.produto = produto;
         this.quantidade = quantidade;

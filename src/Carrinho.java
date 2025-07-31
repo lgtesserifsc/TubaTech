@@ -9,7 +9,7 @@ public class Carrinho {
     }
 
     public boolean adicionarProduto(Produto produto, int quantidade) {
-        // Verifica se o produto já está no carrinho
+        // Ve se o carrinho ta vazio
         for (int i = 0; i < totalItens; i++) {
             if (itens[i].getProduto().getId() == produto.getId()) {
                 int novaQuantidade = itens[i].getQuantidade() + quantidade;
@@ -19,7 +19,6 @@ public class Carrinho {
             }
         }
 
-        // Adiciona novo item
         if (totalItens < CAPACIDADE_MAXIMA) {
             itens[totalItens] = new ItemCarrinho(produto, quantidade);
             totalItens++;
@@ -34,7 +33,7 @@ public class Carrinho {
     public boolean removerProduto(int idProduto) {
         for (int i = 0; i < totalItens; i++) {
             if (itens[i].getProduto().getId() == idProduto) {
-                // Move todos os itens uma posição para trás
+                // Move itens 1 posição para trás
                 for (int j = i; j < totalItens - 1; j++) {
                     itens[j] = itens[j + 1];
                 }
